@@ -2,9 +2,11 @@
 //You should have 2 instance variables and 1 instance function included.
 function octoCat(n,a) {
   this.name = n;
-  this.arms = s;
+  this.arms = a;
   this.slap = function() {
-    for(var a=0);
+    for(var a=0;a<this.arms; a++){
+      console.log("You've slapped "+n+" "+a+" times"
+    }
   }
 }
 
@@ -18,3 +20,4 @@ function octoCat(n,a) {
 
 
 //Write your 3 new octocat objects below here.
+Octocat(Mitchell,8)
